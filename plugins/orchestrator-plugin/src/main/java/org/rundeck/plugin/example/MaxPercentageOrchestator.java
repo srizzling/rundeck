@@ -62,6 +62,7 @@ public class MaxPercentageOrchestator implements Orchestrator {
 
     @Override
     public void returnNode(final INodeEntry node, boolean success, NodeStepResult result) {
+        Systems.out.println("This is a test, returnNode should be called at this point");
         count--;
     }
 

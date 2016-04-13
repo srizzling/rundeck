@@ -11,7 +11,7 @@ import com.dtolabs.rundeck.plugins.descriptions.PluginProperty;
 import com.dtolabs.rundeck.plugins.orchestrator.Orchestrator;
 import com.dtolabs.rundeck.plugins.orchestrator.OrchestratorPlugin;
 
-@Plugin(name = "maxPercentage", service = ServiceNameConstants.Orchestrator)
+@Plugin(name = "maxPercentage2", service = ServiceNameConstants.Orchestrator)
 @PluginDescription(title = "Max Percentage",
                    description = "Will never process more than the given percentage of nodes per run at one time " +
                                  "regardless of how high threads are configured")
